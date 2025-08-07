@@ -23,7 +23,7 @@ from utils import get_db, init_db, User, safe_db_execute, validate_username, val
 app = Flask(__name__)
 
 # Enable CORS for frontend
-CORS(app, origins=["https://your-frontend-domain.netlify.app", "http://localhost:3000"], 
+CORS(app, origins=["https://6894a4fe0d2a14d1733f59d0--fxchat.netlify.app/", "http://localhost:3000"], 
      supports_credentials=True)
 
 # Security configurations
@@ -175,3 +175,4 @@ def handle_private(data):
 
 if __name__ == "__main__":
     socketio.run(app, debug=True)
+
