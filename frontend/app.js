@@ -1,5 +1,5 @@
 // Configuration
-const BACKEND_URL = 'https://your-backend-url.onrender.com'; // TODO: Update this with your actual Render URL after deployment
+const BACKEND_URL = 'https://try-l31y.onrender.com/'; // TODO: Update this with your actual Render URL after deployment
 let socket;
 let currentUser = null;
 let currentPrivateChat = null;
@@ -476,3 +476,4 @@ function escapeHtml(text) {
     div.textContent = text;
     return div.innerHTML;
 }
+
